@@ -6,8 +6,9 @@
 include_recipe 'apt'
 include_recipe 'jenkins::master'
 
+# run the Jenkins service
 service 'jenkins' do
-  supports :status => true, :start => true, :stop => true, :restart => true 
+  supports :status => true, :start => true, :stop => true, :restart => true
   action [:enable, :start]
 end
 
