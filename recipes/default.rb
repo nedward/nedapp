@@ -12,6 +12,7 @@ service 'jenkins' do
   action [:enable, :start]
 end
 
+# Add git plugin
 jenkins_plugin 'git' do
   notifies :restart, 'service[jenkins]', :immediately
 end
