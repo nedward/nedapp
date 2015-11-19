@@ -1,0 +1,7 @@
+name 'nedapp'
+maintainer 'The Authors'
+maintainer_email 'you@example.com'
+license 'all_rights'
+description 'Installs/Configures nedapp'
+long_description 'Installs/Configures nedapp'
+version '0.1.0'
